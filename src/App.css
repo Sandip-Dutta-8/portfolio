@@ -750,16 +750,16 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
 .skill .title-wrapper {
-  width: 150px;
+  width: 140px;
   text-align: center;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 10px;
   background-color: var(--light-gray);
 }
@@ -1178,7 +1178,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
+  /**
+   * skill
+   */
+    
+  /* .skill .title-wrapper {
+    width: 130px;
+  } */
 
   /**
    * #PORTFOLIO, BLOG 
