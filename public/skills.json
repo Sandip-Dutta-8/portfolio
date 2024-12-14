@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "title": "HTML"
+    },
+    {
+        "id": "2",
+        "title": "CSS"
+    },
+    {
+        "id": "3",
+        "title": "JavaScript"
+    },
+    {
+        "id": "4",
+        "title": "BootStrap"
+    },
+    {
+        "id": "5",
+        "title": "TailWind"
+    },
+    {
+        "id": "6",
+        "title": "React"
+    },
+    {
+        "id": "7",
+        "title": "Git & Github"
+    },
+    {
+        "id": "8",
+        "title": "Node.Js"
+    },
+    {
+        "id": "9",
+        "title": "Express.Js"
+    },
+    {
+        "id": "10",
+        "title": "Mongodb"
+    },
+    {
+        "id": "11",
+        "title": "Material UI"
+    },
+    {
+        "id": "12",
+        "title": "Next.js"
+    },
+    {
+        "id": "13",
+        "title": "Docker"
+    },
+    {
+        "id": "14",
+        "title": "React Native"
+    }
+]
