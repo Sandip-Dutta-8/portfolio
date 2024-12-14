@@ -757,6 +757,7 @@ main {
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
 .skill .title-wrapper {
+  width: 150px;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
