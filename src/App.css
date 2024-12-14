@@ -757,7 +757,7 @@ main {
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
 .skill .title-wrapper {
-  width: 140px;
+  width: 130px;
   text-align: center;
   padding: 0.5rem 0.8rem;
   border-radius: 10px;
@@ -766,7 +766,6 @@ main {
 
 .title-wrapper h5{
   color: var(--smoky-black);
-  font-weight: 600;
 }
 
 .skill .title-wrapper data {
