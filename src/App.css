@@ -360,6 +360,7 @@ main {
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
+  display: none;
 }
 
 .info_more-btn::before {
@@ -382,7 +383,7 @@ main {
 
 .sidebar-info_more {
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   transition: var(--transition-2);
 }
 
@@ -1025,7 +1026,8 @@ main {
 .blog-meta :is(.blog-category, time) {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-600);
+  margin-top: 10px;
 }
 
 .blog-meta .dot {
@@ -1291,10 +1293,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     top: -30px;
     right: -30px;
     padding: 10px 15px;
+    visibility: hidden;
   }
 
   .info_more-btn span {
-    display: block;
+    display: none;
     font-size: var(--fs-8);
   }
 

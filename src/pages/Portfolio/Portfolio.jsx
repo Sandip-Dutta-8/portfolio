@@ -60,9 +60,10 @@ const Portfolio = () => {
               key={project.id}
               title={project.title}
               image={project.image}
-              category={project.category}
               description={project.description}
               link={project.link}
+              skills={project.skills}
+              category={project.category}
             />
           ))}
         </ul>

@@ -1,84 +1,66 @@
 [
     {
       "id": 1,
-      "title": "Finance",
+      "title": "Blogy",
       "category": "Web development",
       "image": "images/project-1.jpg",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "description": "A blog web application with amazing user interface and dark/light mode feature.",
+      "link": "https://github.com/sandip-dutta-8/next-blog",
+      "skills": "Next.js, JavaScript, Mongodb, Prisma"
     },
     {
       "id": 2,
-      "title": "Orizon",
+      "title": "Coindom",
       "category": "Web development",
-      "image": "images/project-2.png",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "image": "images/project-1.jpg",
+      "description": "Your go-to for crypto trading. Explore all platforms, get real-time price analysis in three currencies. Stay informed and navigate the crypto market effortlessly.",
+      "link": "https://github.com/sandip-dutta-8/React-Projects/tree/main/coin-dom",
+      "skills": "React, Chakra UI"
     },
     {
       "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "title": "MeTube",
+      "category": "Web development",
+      "image": "images/project-1.jpg",
+      "description": "MeTube(YouTube clone), my latest web app project made with React JS and Material UI. Dive into seamless video streaming and a polished user interface.",
+      "link": "https://github.com/Sandip-Dutta-8/MeTube",
+      "skills": "React.js, Material UI"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "title": "Notes",
+      "category": "Web development",
+      "image": "images/project-1.jpg",
+      "description": "A web application where you can add notes with user authentication, also add, edit, delete notes.",
+      "link": "https://github.com/Sandip-Dutta-8/note-app",
+      "skills": "React.js, Node.js, Express.js, Mongodb"
     },
     {
       "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "title": "User Authentication",
+      "category": "Web development",
+      "image": "images/project-1.jpg",
+      "description": "A user authentication system where user can signin, signup, edit profile, delete profile etc.",
+      "link": "https://github.com/Sandip-Dutta-8/mern-auth",
+      "skills": "React.js, Node.js, Express.js, Mongodb"
     },
     {
       "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
+      "title": "YumYum",
       "category": "Web development",
-      "image": "images/project-7.png",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "image": "images/project-1.jpg",
+      "description": "A food apllication with realtime order tracking, search and also have many features.",
+      "link": "https://github.com/Sandip-Dutta-8/yumyum",
+      "skills": "MERN Stack, shadcn UI, TypeScript"
     },
     {
       "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
+      "title": "DevStream",
       "category": "Web development",
-      "image": "images/project-9.png",
-      "skill": "HTML",
-      "description": "Test description",
-      "link": "https://github.com/sandip-dutta-8"
+      "image": "images/project-1.jpg",
+      "description": "A online IDE for HTML, CSS and JavaScript.",
+      "link": "https://github.com/Sandip-Dutta-8/DevStream",
+      "skills": "React.js, Node.js, Express.js, Mongodb"
     }
   ]
   
