@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Blogy",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/blog.png",
       "description": "A blog web application with amazing user interface and dark/light mode feature.",
       "link": "https://github.com/sandip-dutta-8/next-blog",
       "skills": "Next.js, JavaScript, Mongodb, Prisma"
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Coindom",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/coindom.png",
       "description": "Your go-to for crypto trading. Explore all platforms, get real-time price analysis in three currencies. Stay informed and navigate the crypto market effortlessly.",
       "link": "https://github.com/sandip-dutta-8/React-Projects/tree/main/coin-dom",
       "skills": "React, Chakra UI"
@@ -21,8 +21,8 @@
       "id": 3,
       "title": "MeTube",
       "category": "Web development",
-      "image": "images/project-1.jpg",
-      "description": "MeTube(YouTube clone), my latest web app project made with React JS and Material UI. Dive into seamless video streaming and a polished user interface.",
+      "image": "images/metube.png",
+      "description": "MeTube(YouTube clone), a web app project made with React JS and Material UI. Dive into seamless video streaming and a polished user interface.",
       "link": "https://github.com/Sandip-Dutta-8/MeTube",
       "skills": "React.js, Material UI"
     },
@@ -30,7 +30,7 @@
       "id": 4,
       "title": "Notes",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/note.png",
       "description": "A web application where you can add notes with user authentication, also add, edit, delete notes.",
       "link": "https://github.com/Sandip-Dutta-8/note-app",
       "skills": "React.js, Node.js, Express.js, Mongodb"
@@ -39,7 +39,7 @@
       "id": 5,
       "title": "User Authentication",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/user-authentication.png",
       "description": "A user authentication system where user can signin, signup, edit profile, delete profile etc.",
       "link": "https://github.com/Sandip-Dutta-8/mern-auth",
       "skills": "React.js, Node.js, Express.js, Mongodb"
@@ -48,7 +48,7 @@
       "id": 6,
       "title": "YumYum",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/yumyum.png",
       "description": "A food apllication with realtime order tracking, search and also have many features.",
       "link": "https://github.com/Sandip-Dutta-8/yumyum",
       "skills": "MERN Stack, shadcn UI, TypeScript"
@@ -57,10 +57,28 @@
       "id": 8,
       "title": "DevStream",
       "category": "Web development",
-      "image": "images/project-1.jpg",
+      "image": "images/devstream.png",
       "description": "A online IDE for HTML, CSS and JavaScript.",
       "link": "https://github.com/Sandip-Dutta-8/DevStream",
       "skills": "React.js, Node.js, Express.js, Mongodb"
+    },
+    {
+      "id": 9,
+      "title": "HighHopes",
+      "category": "Web development",
+      "image": "images/highhopes.png",
+      "description": "A event management system where user(host) can create, edit, delete event also user can buy tickets.",
+      "link": "https://github.com/Sandip-Dutta-8/high-hopes",
+      "skills": "Next.js, Mongodb, Stripe"
+    },
+    {
+      "id": 10,
+      "title": "FaceCode",
+      "category": "Web development",
+      "image": "images/facecode.png",
+      "description": "A platform where you can share screen and working with other random developers online.",
+      "link": "https://github.com/Sandip-Dutta-8/face-code",
+      "skills": "Next.js, postgreSQL"
     }
   ]
   
