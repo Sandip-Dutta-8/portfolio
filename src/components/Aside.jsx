@@ -1,9 +1,13 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { useState } from "react";
 
 const Aside = () => {
+
+  const [active, setActive] = useState(false)
+
   return (
-    <aside className="sidebar">
+    <aside className={active ? "sidebar active" : "sidebar"}>
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
@@ -21,9 +25,8 @@ const Aside = () => {
             <p className="title">Web Developer</p>
           </div>
 
-          <button className="info_more-btn" data-sidebar-btn>
+          <button className="info_more-btn" data-sidebar-btn onClick={()=>{setActive(!active)}}>
             <span>Show Contacts</span>
-
             <GiClawSlashes />
           </button>
         </div>

@@ -360,7 +360,7 @@ main {
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
-  display: none;
+  display: block;
 }
 
 .info_more-btn::before {
@@ -1293,15 +1293,15 @@ textarea.form-input::-webkit-resizer { display: none; }
     top: -30px;
     right: -30px;
     padding: 10px 15px;
-    visibility: hidden;
+    visibility: visible;
   }
 
   .info_more-btn span {
-    display: none;
+    display: block;
     font-size: var(--fs-8);
   }
 
-  .info_more-btn ion-icon { display: none; }
+  .info_more-btn ion-icon { display: block; }
 
   .separator { margin: 32px 0; }
 

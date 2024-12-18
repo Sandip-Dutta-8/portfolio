@@ -1,6 +1,33 @@
+import { useState } from "react";
 
 
 const Contact = () => {
+
+  const [result, setResult] = useState("Send Message");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", import.meta.env.VITE_EMAIL_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Message Send");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult("Something wrong!!");
+    }
+  };
+
   return (
     <section className="contact" data-page="contact">
 
@@ -19,7 +46,7 @@ const Contact = () => {
 
         <h3 className="h3 form-title">Contact Form</h3>
 
-        <form action="#" className="form" data-form>
+        <form action="#" className="form" data-form onSubmit={handleSubmit}>
 
           <div className="input-wrapper">
             <input type="text" name="fullname" className="form-input" placeholder="Full name" required data-form-input />
@@ -31,7 +58,7 @@ const Contact = () => {
 
           <button className="form-btn" type="submit" data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
-            <span>Send Message</span>
+            <span>{result}</span>
           </button>
 
         </form>
