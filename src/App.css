@@ -676,6 +676,7 @@ main {
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
+.resume { display: flex; align-items: center; gap: 10px;}
 
 
 /**

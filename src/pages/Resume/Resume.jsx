@@ -1,14 +1,15 @@
-import { FaBookReader, FaRegBookmark } from "react-icons/fa";
+import { FaBookReader, FaLink, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from './TimelineItem';
 import SkillItem from './SkillItem';
 import skills from '../../../public/skills.json'
+import { Link } from "react-router-dom";
 
 const Resume = () => {
 
   return (
     <section>
       <header>
-        <h2 className="h2 article-title">Resume</h2>
+          <h2 className="h2 article-title resume">Resume <a href="https://drive.google.com/drive/u/0/folders/1mDGUBiK3aDtQ-mR4tLw_Rkm2xqIZGJfW" target="_blank"><FaLink style={{color: "white"}}/></a></h2>
       </header>
 
       <div className="timeline">
@@ -60,8 +61,8 @@ const Resume = () => {
         <h3 className="h3 skills-title">My skills</h3>
         <ul className="skills-list content-card">
           {
-            skills.map((skill)=>(
-              <SkillItem title={skill.title} key={skill.id}/>
+            skills.map((skill) => (
+              <SkillItem title={skill.title} key={skill.id} />
             ))
           }
         </ul>
