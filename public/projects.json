@@ -79,6 +79,15 @@
       "description": "A platform where you can share screen and working with other random developers online.",
       "link": "https://github.com/Sandip-Dutta-8/face-code",
       "skills": "Next.js, postgreSQL"
+    },
+    {
+      "id": 11,
+      "title": "Storylens",
+      "category": "Web development",
+      "image": "images/storylens.png",
+      "description": "A platform where you can write your story with mood tracking features like personal diary.",
+      "link": "https://github.com/Sandip-Dutta-8/storylens",
+      "skills": "Next.js, postgreSQL"
     }
   ]
   
