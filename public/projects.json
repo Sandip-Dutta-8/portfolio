@@ -88,6 +88,15 @@
       "description": "A platform where you can write your story with mood tracking features like personal diary.",
       "link": "https://github.com/Sandip-Dutta-8/storylens",
       "skills": "Next.js, postgreSQL"
+    },
+    {
+      "id": 12,
+      "title": "Bade Bhaiya",
+      "category": "Web development",
+      "image": "images/badebhaiya.png",
+      "description": "A platform where you can see industry insights, build resume and cover letter with the help of AI and also give mock interview according to your choosen field.",
+      "link": "https://github.com/Sandip-Dutta-8/badebhaiya",
+      "skills": "Next.js, postgreSQL, Gemini API"
     }
   ]
   
