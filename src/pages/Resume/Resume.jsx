@@ -45,7 +45,7 @@ const Resume = () => {
             description="Lead and conducted web development sessions for students, covering topics like HTML, CSS, JavaScript, ReactJS and other modern web technologies."
           />
           <TimelineItem
-            title="Internship at SequenceMaster"
+            title="Freelance at SequenceMaster"
             date="March 2024 - April 2024"
             description=" Developed and maintained the SequenceMaster website, enhancing functionality and user experience using ReactJS, SCSS and Tailwind CSS also worked on the SequenceMaster mobile app using React Native, ensuring smooth performance and a responsive UI"
           />
